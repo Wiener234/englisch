@@ -1,0 +1,114 @@
+@-webkit-keyframes blackWhite {  
+    0% { color: yellow; }
+    50% { color: blue; }
+    51% { color: white; }
+    100% { color: rgb(0, 255, 0); }
+  }
+
+  @-webkit-keyframes blac {  
+    0% { color: yellow; }
+    50% { color: red; }
+    51% { color: white; }
+    100% { color: rgb(0, 255, 0); }
+  }
+
+.left{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 46pt;
+    float: left;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 1s;
+    
+}
+
+.right{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 46pt;
+    float: right;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 1s;
+    
+}
+
+.dleft{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 46pt;
+    float: left;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 1s;
+}
+
+.dright{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-size: 46pt;
+    float: right;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 1s;
+}
+
+.download{
+    margin: auto;
+    position: relative;
+}
+
+.button{
+    
+    font-size: 32px;
+    color: white;
+    background: red;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 800px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    
+}
+
+.middle {
+    color: white;
+    font-size: 40pt;
+    width: 50px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+p{
+    padding-left: 100px;
+    -webkit-animation-name: blac;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 1s;
+}
+
+body{
+    background-color: blue;
+    
+    
+}
